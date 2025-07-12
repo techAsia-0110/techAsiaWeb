@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;700;800&family=Inter:wght@400;500;700;800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+@layer base {
+  /* Remove default margins/padding and set box-sizing */
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /*  Reset font and smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /*  Remove list styles (bullets/numbers) */
+  ul, ol {
+    list-style: none;
+  }
+}
