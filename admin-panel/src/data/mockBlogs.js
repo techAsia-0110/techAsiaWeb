@@ -1,0 +1,83 @@
+// src/data/mockBlogs.js
+export const mockBlogs = [
+  {
+    _id: "1",
+    title: "The Future of Renewable Energy: Solar Paint Technology",
+    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276",
+    excerpt: "Scientists have developed photovoltaic paint that can turn any surface into a solar panel. This breakthrough could revolutionize how we power our homes.",
+    publishedDate: "2023-08-15",
+    content: "As of 2025, the U.S. solar industry is attracting private investment activity worth tens of billions of dollars. When that kind of serious cash starts flooding an industry, you know new innovation isn't far behind.\n\nAnd what sounds more innovative than ‘solar paint’? A paint that can generate electricity, but still works as normal paint? The ability to turn not only a roof, but an entire building into a solar-generating surface? If that doesn't scream innovation, then I don't know what does.\n\nSo far, the lifeblood of the solar industry has been traditional photovoltaic solar panels. Solar panels are a well-proven technology that save homeowners a ton of money. However, the hassle and expense of rooftop panel installations often deter people from switching to solar energy.\n\nNow imagine a world where we could simply paint our roofs and walls with a type of paint that can generate electricity. Though we're pretty far off from actually implementing this technology, it's still exciting to think about.\n\nSo, what is solar paint? The most important thing to know is that it isn’t a single product; currently there are three different technologies that are referred to as 'solar paint'."
+  },
+  {
+    _id: "2",
+    title: "Neuralink's First Human Trials Show Promising Results",
+    image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb",
+    excerpt: "Early test subjects with Neuralink implants have demonstrated the ability to control devices with their thoughts at speeds exceeding previous brain-computer interfaces.",
+    publishedDate: "2023-07-22",
+    content: "## Neuralink's Groundbreaking BCI\n\nThe brain-computer interface (BCI) developed by Neuralink has shown remarkable results in its initial human trials. This is a huge leap forward."
+  },
+  {
+    _id: "3",
+    title: "Quantum Computing Breakthrough: Error Correction Milestone Achieved",
+    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
+    excerpt: "Researchers at IBM have successfully demonstrated a quantum error correction method that maintains qubit coherence 10x longer than previous attempts.",
+    publishedDate: "2023-06-30",
+    content: "### A Leap in Quantum Stability\n\nIBM's latest breakthrough addresses one of the most significant hurdles in quantum computing: decoherence. By implementing a novel error correction code, their quantum processor was able to maintain the state of its qubits for an unprecedented duration, marking a critical step towards building fault-tolerant quantum computers."
+  },
+  {
+    _id: "4",
+    title: "The Complete Guide to Vertical Farming in Urban Environments",
+    image: "https://images.unsplash.com/photo-1606787366850-de6330128bfc",
+    excerpt: "Vertical farming could solve food security issues in cities. This comprehensive guide covers everything from hydroponic systems to LED light optimization.",
+    publishedDate: "2025-05-18",
+    content: "Vertical farming represents a revolutionary approach to agriculture that could fundamentally change how we grow food in urban environments. Unlike traditional farming that requires vast horizontal spaces, vertical farming stacks growing trays vertically, dramatically increasing yield per square foot while using 95% less water.\n\n**The Core Technologies:**\n1. Hydroponic Systems - Plants grow in nutrient-rich water solutions without soil\n2. Aeroponic Systems - Plant roots are misted with nutrient solution\n3. Aquaponic Systems - Combines fish farming with plant cultivation\n\n**Lighting Solutions:**\nLED lighting has been the game-changer for vertical farms. By tuning specific wavelengths:\n- Red light (660nm) promotes flowering and fruiting\n- Blue light (450nm) encourages vegetative growth\n- Full spectrum mimics natural sunlight\n\n**Environmental Control:**\nPrecision control systems maintain:\n- Ideal temperature (68-75°F)\n- Humidity (40-70% RH)\n- CO2 levels (1000-1500 ppm)\n- Air circulation\n\n**Crop Selection:**\nBest candidates for vertical farming include:\n- Leafy greens (lettuce, kale, spinach)\n- Herbs (basil, mint, cilantro)\n- Microgreens\n- Strawberries\n- Some mushroom varieties\n\n**Economic Considerations:**\nStartup costs remain high due to:\n- LED lighting infrastructure\n- Climate control systems\n- Automation equipment\nHowever, operational benefits include:\n- Year-round production\n- No weather dependencies\n- Reduced transportation costs\n- Higher yields per square foot\n\n**Sustainability Benefits:**\n1. Water Conservation: Recirculating systems use minimal water\n2. No Pesticides: Controlled environments eliminate pests\n3. Reduced Food Miles: Farms can be located in urban centers\n4. Land Preservation: Doesn't require arable land\n\n**Challenges to Address:**\n1. High energy demands (though renewable energy can offset)\n2. Limited crop variety (currently best for leafy greens)\n3. Technical expertise requirements\n4. Initial capital investment\n\n**Future Developments:**\n1. Integration with renewable energy\n2. AI-powered growth optimization\n3. Expansion to more crop varieties\n4. Modular, scalable systems for homes and businesses\n\nVertical farming isn't just a theoretical concept - it's already being implemented in cities worldwide. From Singapore's Sky Greens to New York's Gotham Greens, successful operations are proving the model's viability. As technology advances and scales, we may soon see vertical farms as common as supermarkets in urban centers."
+  },
+  {
+    _id: "5",
+    title: "Lab-Grown Meat: From Petri Dish to Dinner Plate",
+    image: "https://images.unsplash.com/photo-1606787366850-de6330128bfc",
+    excerpt: "Cultivated meat has received FDA approval and is coming to restaurants. We explore the science and ethics behind this food revolution.",
+    publishedDate: "2023-04-05",
+    content: "The era of cultivated meat is upon us. After years of development, companies have finally gained regulatory approval to sell meat grown from animal cells directly to consumers. This article explores the science, the ethical implications, and what it means for the future of food."
+  },
+  {
+    _id: "6",
+    title: "Augmented Reality Contact Lenses Begin Clinical Trials",
+    image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5",
+    excerpt: "Mojo Vision's AR contact lenses promise seamless digital overlay on the real world without bulky headsets. First human trials show positive safety results.",
+    publishedDate: "2023-03-12",
+    content: "Imagine seeing directions, notifications, and other digital information seamlessly overlaid on your vision without a headset. That's the promise of Mojo Vision's AR contact lenses, which have now entered their first phase of clinical trials."
+  },
+  {
+    _id: "7",
+    title: "The Science Behind Memory Formation and Recall",
+    image: "https://images.unsplash.com/photo-1595433707802-6b2626ef1c91",
+    excerpt: "Neuroscientists have identified the molecular mechanisms that create and retrieve memories, opening doors to potential treatments for Alzheimer's.",
+    publishedDate: "2023-02-28",
+    content: "A new study has shed light on the complex processes of how our brains form, store, and recall memories. Researchers have identified key proteins and neural pathways involved, which could pave the way for new therapies targeting memory-related disorders."
+  },
+  {
+    _id: "8",
+    title: "Bioprinting Organs: How Close Are We to Replacement Parts?",
+    image: "https://images.unsplash.com/photo-1581093450021-4a7360e9a9d3",
+    excerpt: "3D bioprinting technology has advanced to the point where simple tissues are being tested in humans. Complex organs may be just a decade away.",
+    publishedDate: "2023-01-15",
+    content: "The futuristic concept of printing replacement organs on demand is moving closer to reality. Scientists are now able to 3D print simple tissues like skin and cartilage, and are making significant progress towards more complex structures like kidneys and hearts."
+  },
+  {
+    _id: "9",
+    title: "The Mathematics of Cryptocurrency: Beyond Blockchain",
+    image: "https://images.unsplash.com/photo-1621570072950-6b8f6d2e8c0a",
+    excerpt: "New cryptographic techniques like zero-knowledge proofs and homomorphic encryption are creating the next generation of secure digital currencies.",
+    publishedDate: "2022-12-03",
+    content: "While Bitcoin's blockchain is the most well-known cryptographic technology, the world of digital currency is evolving. Advanced mathematical concepts like zero-knowledge proofs are enabling more private and efficient transactions, heralding a new era of cryptocurrency."
+  },
+  {
+    _id: "10",
+    title: "Ocean Cleanup Project Removes 100,000 kg of Plastic",
+    image: "https://images.unsplash.com/photo-1536939459926-301728717817",
+    excerpt: "The nonprofit's latest system has successfully collected massive amounts of plastic from the Great Pacific Garbage Patch, proving the technology works.",
+    publishedDate: "2022-11-20",
+    content: "In a major victory for environmental conservation, The Ocean Cleanup project announced it has officially removed over 100,000 kilograms of plastic from the Great Pacific Garbage Patch. The milestone proves that their large-scale cleanup technology is viable."
+  }
+];
